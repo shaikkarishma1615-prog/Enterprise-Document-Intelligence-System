@@ -11,7 +11,9 @@ class Retriever:
         self.client = chromadb.PersistentClient(path="vector_store")
 
         # Load existing collection
-        self.collection = self.client.get_collection("enterprise_rag")
+        self.collection = self.client.get_or_create_collection(
+            name="enterprise_rag"
+        )
 
     def search(self, query, top_k=2):
         query_embedding = self.model.encode(query).tolist()
