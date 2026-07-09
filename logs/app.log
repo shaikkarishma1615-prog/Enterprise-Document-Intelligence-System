@@ -1,0 +1,35 @@
+2026-07-08 18:47:10 | INFO | Uploading file: SLOTBOOKING.pdf
+2026-07-08 18:47:10 | INFO | File saved successfully.
+2026-07-08 18:47:10 | INFO | Vector database reset.
+2026-07-08 18:47:10 | INFO | Loading documents...
+2026-07-08 18:47:10 | INFO | Loaded 6 document pages.
+2026-07-08 18:47:10 | INFO | Created 11 chunks.
+2026-07-08 18:47:11 | INFO | Embeddings generated successfully.
+2026-07-08 18:47:11 | INFO | Embeddings stored in ChromaDB.
+2026-07-08 18:47:11 | INFO | Successfully processed 6 document(s) into 11 chunks.
+2026-07-08 18:47:14 | INFO | Uploading file: SLOTBOOKING.pdf
+2026-07-08 18:47:14 | INFO | File saved successfully.
+2026-07-08 18:47:14 | INFO | Vector database reset.
+2026-07-08 18:47:14 | INFO | Loading documents...
+2026-07-08 18:47:15 | INFO | Loaded 6 document pages.
+2026-07-08 18:47:15 | INFO | Created 11 chunks.
+2026-07-08 18:47:15 | INFO | Embeddings generated successfully.
+2026-07-08 18:47:15 | INFO | Embeddings stored in ChromaDB.
+2026-07-08 18:47:15 | INFO | Successfully processed 6 document(s) into 11 chunks.
+2026-07-08 18:47:35 | INFO | Question received: Date of slot
+2026-07-08 18:47:37 | INFO | Question received: Date of slot
+2026-07-08 19:22:27 | INFO | Uploading file: karishma_resume.pdf
+2026-07-08 19:22:27 | INFO | File saved successfully.
+2026-07-08 19:22:27 | INFO | Vector database reset.
+2026-07-08 19:22:27 | INFO | Loading document: data/karishma_resume.pdf
+2026-07-08 19:22:27 | INFO | Loaded 2 pages.
+2026-07-08 19:22:27 | INFO | Created 6 chunks.
+2026-07-08 19:22:28 | INFO | Embeddings generated successfully.
+2026-07-08 19:22:28 | INFO | Embeddings stored in ChromaDB.
+2026-07-08 19:22:28 | INFO | Successfully processed 2 document(s) into 6 chunks.
+2026-07-08 19:22:54 | INFO | Question received: list of certificates
+2026-07-08 19:22:56 | INFO | Question received: list of certificates
+2026-07-08 19:23:17 | INFO | Question received: list of certificates
+2026-07-08 19:26:30 | INFO | Question received: list of certificates
+2026-07-08 19:36:25 | INFO | Question received: list of certificates
+2026-07-08 19:36:30 | INFO | Answer generated successfully.

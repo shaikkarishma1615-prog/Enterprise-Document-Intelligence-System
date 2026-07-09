@@ -3,14 +3,12 @@ from langchain_community.document_loaders import PyPDFLoader
 
 
 class DocumentLoader:
-    def __init__(self, data_folder="data"):
-        self.data_folder = Path(data_folder)
+
+    def __init__(self, pdf_path):
+        self.pdf_path = Path(pdf_path)
 
     def load_documents(self):
-        documents = []
 
-        for file in self.data_folder.glob("*.pdf"):
-            loader = PyPDFLoader(str(file))
-            documents.extend(loader.load())
+        loader = PyPDFLoader(str(self.pdf_path))
 
-        return documents
+        return loader.load()

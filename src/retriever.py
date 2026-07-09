@@ -15,7 +15,7 @@ class Retriever:
             name="enterprise_rag"
         )
 
-    def search(self, query, top_k=2):
+    def search(self, query, top_k=5):
         query_embedding = self.model.encode(query).tolist()
 
         results = self.collection.query(
